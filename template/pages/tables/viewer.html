@@ -24,6 +24,7 @@
         <a class="navbar-brand brand-logo mr-5" href="../../index.html"><img src="../../images/logo.svg" class="mr-2" alt="logo"/></a>
         <a class="navbar-brand brand-logo-mini" href="../../index.html"><img src="../../images/logo-mini.svg" alt="logo"/></a>
       </div>
+      <div class="navbar-menu-wrapper d-flex align-items-center justify-content-end">
     </nav>
     <!-- partial -->
     <div class="container-fluid page-body-wrapper">
@@ -35,7 +36,40 @@
                       <h4 class="font-weight-bold mb-0"><button type="button" class="btn btn-light" onclick="window.location='../../index.html';">Overview</button> > <button type="button" class="btn btn-light" onclick="window.location='basic-table.html';">Batch 3</button> > <button type="button" class="btn btn-dark">Scan 3.1</button></h4>
                     </div>
           <br>
+          <div class="row">
+            <div class="col-lg-12 grid-margin stretch-card">
+              <div class="card">
+                <div class="card-body">
+                  <div class="table-responsive">
+                    <table class="table table-hover">
+                      <thead>
+                      <tr >
+                        <th>Scan number</th>
+                        <th>Haploid Distribution<sup>*</sup></th>
+                        <th>Date</th>
+                        <th>Plant type</th>
+                        <th></th>
+                      </tr>
+                      </thead>
+                      <tbody>
 
+                      <tr onclick="window.location='../tables/viewer.html';">
+                        <td>3.1</td>
+                        <td>OXOXXO</td>
+                        <td>14:00 16.06.2021</td>
+                        <td>Rapseeds</td>
+
+                        <td><label class="badge badge-success">More information</label></td>
+                      </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <br>
+                  <p>* X = double haploid plant; O = non-double hapolid plants</p>
+                </div>
+              </div>
+            </div>
+          </div>
           <div class="row">
             <div class="col-lg-12 grid-margin stretch-card">
               <div class="card">
