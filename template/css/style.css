@@ -12887,6 +12887,14 @@ input[type="button"].btn-block {
   border-radius: 0;
 }
 
+.kpi {
+  background-color: #08593dcc;
+  border-style: solid;
+  -webkit-box-shadow: 0px 0px 0px 0px #ffffff;
+  -moz-box-shadow: 0px 0px 0px 0px #ffffff;
+  -ms-box-shadow: 0px 0px 0px 0px #ffffff;
+}
+
 .card > hr {
   margin-right: 0;
   margin-left: 0;
@@ -19661,7 +19669,7 @@ code {
 }
 
 .card .card-title {
-  color: #787878;
+  color: #ffffff;
   margin-bottom: 1.2rem;
   text-transform: uppercase;
   font-size: 1rem;
