@@ -12306,6 +12306,10 @@ input[type="button"].btn-block {
   background-color: #b3d7ff;
 }
 
+.kpi-text {
+  color: #ffffff;
+}
+
 .custom-range::-webkit-slider-runnable-track {
   width: 100%;
   height: 0.5rem;
@@ -12888,7 +12892,7 @@ input[type="button"].btn-block {
 }
 
 .kpi {
-  background-color: #08593dcc;
+  background-color: rgba(8, 89, 61, 0.93);
   border-style: solid;
   -webkit-box-shadow: 0px 0px 0px 0px #ffffff;
   -moz-box-shadow: 0px 0px 0px 0px #ffffff;
@@ -18824,7 +18828,7 @@ code {
 }
 
 .text-black {
-  color: #000;
+  color: #ffffff;
 }
 
 .text-small {
@@ -19662,6 +19666,7 @@ code {
 
 .card .card-body {
   padding: 1.25rem 1.437rem;
+  /*text-align: center;*/
 }
 
 .card .card-body + .card-body {
@@ -19669,11 +19674,15 @@ code {
 }
 
 .card .card-title {
-  color: #ffffff;
+  color: #000000;
   margin-bottom: 1.2rem;
   text-transform: uppercase;
   font-size: 1rem;
   font-weight: 500;
+}
+
+.kpi .card-title {
+  color: white;
 }
 
 .card .card-subtitle {
