@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Haplor Analytics</title>
+  <!-- plugins:css -->
+  <link rel="stylesheet" href="vendors/ti-icons/css/themify-icons.css">
+  <link rel="stylesheet" href="vendors/base/vendor.bundle.base.css">
+  <!-- endinject -->
+  <!-- plugin css for this page -->
+  <!-- End plugin css for this page -->
+  <!-- inject:css -->
+  <link rel="stylesheet" href="css/style.css">
+<!--  <script>-->
+<!--    history.pushState({}, null, newUrl);-->
+<!--  </script>-->
+  <!-- endinject -->
+  <link rel="shortcut icon" href="images/favicon.png" />
+</head>
+<body>
+<div class="container-scroller">
+  <!-- partial:../../partials/_navbar.html -->
+  <nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
+    <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
+      <a class="navbar-brand brand-logo mr-5" href="home.html"><img src="images/logo.svg" class="mr-2" alt="logo" height=224></a>
+      <a class="navbar-brand brand-logo-mini" href="home.html"><img src="images/logo-mini.svg" alt="logo"/></a>
+    </div>
+
+  </nav>
+  <!-- partial -->
+  <div class="container-fluid page-body-wrapper">
+    <!-- partial:../../partials/_sidebar.html -->
+
+
+    <!-- partial -->
+      <div class="main-panel">
+        <div class="content-wrapper">
+          <div class="row">
+            <div class="col-md-12 grid-margin">
+              <div class="d-flex justify-content-between align-items-center">
+                <div>
+                  <h4 class="font-weight-bold mb-0"><button type="button" class="btn btn-dark" onclick="window.location='index.html';">Overview</button></h4>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <h4 class="font-weight-bold mb-0">MY KPIs</h4>
+          <br>
+
+          <div class="row">
+            <div class="col-md-6 grid-margin stretch-card">
+              <div class="card kpi">
+                <div class="card-body">
+                  <p class="card-title text-md-center text-xl-left">Total Batches</p>
+                  <div class="d-flex flex-wrap justify-content-between justify-content-md-center justify-content-xl-between align-items-center">
+                    <h3 class="mb-0 mb-md-2 mb-xl-0 order-md-1 order-xl-0 kpi-text">37</h3>
+                    <i class="ti-package icon-md text-white mb-0 mb-md-3 mb-xl-0"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 grid-margin stretch-card">
+              <div class="card kpi">
+                <div class="card-body">
+                  <p class="card-title text-md-center text-xl-left">Total Savings</p>
+                  <div class="d-flex flex-wrap justify-content-between justify-content-md-center justify-content-xl-between align-items-center">
+                    <h3 class="mb-0 mb-md-2 mb-xl-0 order-md-1 order-xl-0 kpi-text">12,303 €</h3>
+                    <i class="ti-money icon-md text-white mb-0 mb-md-3 mb-xl-0"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <h4 class="font-weight-bold mb-0">RECENT BATCHES</h4>
+          <br>
+
+          <div class="row">
+            <div class="col-md-4 grid-margin stretch-card">
+              <div class="card">
+                <div class="card-body">
+                  <p class="card-title text-md-left ">Batch 37</p>
+                  <div class="d-flex flex-wrap justify-content-between">
+                    <h3 class="mb-0 mb-md-2 mb-xl-0 order-md-1 order-xl-0">Tomatoes</h3>
+                    <img src="images/tomato.svg" width="32px"> </img>
+                  </div>
+                  <br>
+                  <u>View Batch</u>
+
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 grid-margin stretch-card">
+              <div class="card">
+                <div class="card-body">
+                  <p class="card-title text-md-left ">Batch 36</p>
+                  <div class="d-flex flex-wrap justify-content-between ">
+                    <h3 class="mb-0 mb-md-2 mb-xl-0 order-md-1 order-xl-0">Corn</h3>
+                    <img src="images/corn.svg" width="32px"></img  >
+                  </div>
+                  <br>
+                  <u>View Batch</u>
+                  
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 grid-margin stretch-card" >
+              <div class="card">
+                <div class="card-body" onclick="window.location='pages/tables/basic-table.html';" onmouseover="" style="cursor: pointer;">
+                  <p class="card-title text-md-left">Batch 35</p>
+                  <div class="d-flex flex-wrap justify-content-between">
+                    <h3 class="mb-0 mb-md-2 mb-xl-0 order-md-1 order-xl-0 ">Rapeseeds</h3>
+                    <img src="images/plant-black.svg" width="32px"></img  >
+                  </div>
+                  <br>
+                  <u>View Batch</u>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <u>View all batches</u>
+          <br>
+
+        </div>
+        <!-- content-wrapper ends -->
+
+        <!-- partial -->
+      </div>
+      <!-- main-panel ends -->
+    </div>
+    <!-- page-body-wrapper ends -->
+  </div>
+  <!-- container-scroller -->
+
+  <!-- plugins:js -->
+  <script src="vendors/base/vendor.bundle.base.js"></script>
+  <!-- endinject -->
+  <!-- Plugin js for this page-->
+  <script src="vendors/chart.js/Chart.min.js"></script>
+  <!-- End plugin js for this page-->
+  <!-- inject:js -->
+  <script src="js/off-canvas.js"></script>
+  <script src="js/hoverable-collapse.js"></script>
+  <script src="js/template.js"></script>
+  <script src="js/todolist.js"></script>
+  <!-- endinject -->
+  <!-- Custom js for this page-->
+  <script src="js/dashboard.js"></script>
+  <!-- End custom js for this page-->
+</body>
+
+</html>
