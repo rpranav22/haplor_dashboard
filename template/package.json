@@ -2,7 +2,7 @@
   "name": "RoyalUI_admin",
   "version": "1.0.0",
   "description": "",
-  "main": "index.html",
+  "main": "home.html",
   "dependencies": {
     "bootstrap": "4.3.1",
     "chart.js": "^2.8.0",
